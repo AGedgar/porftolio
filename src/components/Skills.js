@@ -8,6 +8,8 @@ import reactLogo from '../assets/img/react-logo.svg';
 import htmlLogo from '../assets/img/html-logo.svg';
 import cssLogo from '../assets/img/css-logo.svg';
 import mySqlLogo from '../assets/img/mysql-logo.svg';
+import bootstrapLogo from '../assets/img/bootstrap-logo.svg';
+import githubLogo from '../assets/img/github-logo.svg';
 import colorSharp from '../assets/img/color-sharp.png';
 
 export const Skills = () =>{
@@ -67,6 +69,14 @@ export const Skills = () =>{
                               <div className="item">
                                   <img src={mySqlLogo} alt="Image" />
                                   <h5>MySQL</h5>
+                              </div>
+                              <div className="item">
+                                  <img src={bootstrapLogo} alt="Image" />
+                                  <h5>Bootstrap</h5>
+                              </div>
+                              <div className="item">
+                                  <img src={githubLogo} alt="Image" />
+                                  <h5>Github</h5>
                               </div>
                           </Carousel>
                       </div>
