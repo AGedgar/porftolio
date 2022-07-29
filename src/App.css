@@ -53,6 +53,10 @@ a:hover {
   text-decoration: none;
 }
 
+a:link {
+  text-decoration: none !important;
+}
+
 img {
   width: 100%;
   height: auto;

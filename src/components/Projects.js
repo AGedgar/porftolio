@@ -8,7 +8,7 @@ export const Projects = () =>{
                 <Row>
                     <Col size={12}>
                     <h2>Projects</h2>
-                    <p>I am currently working at Octosync as a full stack developer where I have been developing web applications for more than two years, you can read a short description of these projects below</p>
+                    <p>I am currently working at Octosync as a full stack developer where I have been developing web applications for more than two years, you can read a short description of these projects below, i have also worked in IT related jobs before this, you can check my <a href="https://linkedin.com/in/edgarag" target="_blank">LinkedIn</a> account for more information.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>

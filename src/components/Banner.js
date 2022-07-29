@@ -27,8 +27,8 @@ export const Banner = () =>{
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my portfolio</span>
                         <h1>{`Hi I'm Edgar Arellano, `}<span className="wrap">{text}</span></h1>
-                        <p>lorem ipsum dolor sit amet, consectetur adip</p>
-                        <button onClick={() => console.log("connect")}>Let's connect <ArrowRightCircle size={25} /></button>
+                        <p>I am a technology and communications engineer passionate about learning new technologies and skills that can help build solutions that have enjoyable experiences and interactions for everyone.</p>
+                        <a href={`mailto:${"edgar11_93@hotmail.com"}?subject=${""}&body=${""}`}><button>Let's connect <ArrowRightCircle size={25} /></button></a>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Headder Img" />
