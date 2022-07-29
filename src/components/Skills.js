@@ -43,39 +43,39 @@ export const Skills = () =>{
                           <p>These are some of the technologies I have worked with</p>
                           <Carousel responsive={responsive} infinite={true} className="skill-slider">
                               <div className="item">
-                                  <img src={javascriptLogo} alt="Image" />
+                                  <img src={javascriptLogo} alt="jsLogo" />
                                   <h5>JavaScript</h5>
                               </div>
                               <div className="item">
-                                  <img src={reactLogo} alt="Image" />
+                                  <img src={reactLogo} alt="reactLogo" />
                                   <h5>React JS</h5>
                               </div>
                               <div className="item">
-                                  <img src={nextLogo} alt="Image" />
+                                  <img src={nextLogo} alt="nextLogo" />
                                   <h5>Next JS</h5>
                               </div>
                               <div className="item">
-                                  <img src={htmlLogo} alt="Image" />
+                                  <img src={htmlLogo} alt="htmlLogo" />
                                   <h5>HTML</h5>
                               </div>
                               <div className="item">
-                                  <img src={cssLogo} alt="Image" />
+                                  <img src={cssLogo} alt="cssLogo" />
                                   <h5>CSS</h5>
                               </div>
                               <div className="item">
-                                  <img src={nodejsLogo} alt="Image" />
+                                  <img src={nodejsLogo} alt="nodeJslogo" />
                                   <h5>Node JS</h5>
                               </div>
                               <div className="item">
-                                  <img src={mySqlLogo} alt="Image" />
+                                  <img src={mySqlLogo} alt="mysqlLogo" />
                                   <h5>MySQL</h5>
                               </div>
                               <div className="item">
-                                  <img src={bootstrapLogo} alt="Image" />
+                                  <img src={bootstrapLogo} alt="boostrapLogo" />
                                   <h5>Bootstrap</h5>
                               </div>
                               <div className="item">
-                                  <img src={githubLogo} alt="Image" />
+                                  <img src={githubLogo} alt="githubLogo" />
                                   <h5>Github</h5>
                               </div>
                           </Carousel>

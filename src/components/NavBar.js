@@ -43,9 +43,9 @@ export const NavBar = () =>{
                 </Nav>
                 <span className="navbar-text">
                     <div className="social-icon">
-                        <a href="https://linkedin.com/in/edgarag" target="_blank"><img src={navIcon1} alt="linkedIn"/></a>
-                        <a href="https://github.com/AGedgar" target="_blank"><img src={navIcon2} alt="github"/></a>
-                        <a href="https://instagram.com/edgararellanog/" target="_blank"><img src={navIcon3} alt="instagram"/></a>
+                        <a href="https://linkedin.com/in/edgarag" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="linkedIn"/></a>
+                        <a href="https://github.com/AGedgar" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="github"/></a>
+                        <a href="https://instagram.com/edgararellanog/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="instagram"/></a>
                     </div>
                     <a href={`mailto:${"edgar11_93@hotmail.com"}?subject=${""}&body=${""}`}><button className="vvd"><span>Let´s Connect</span></button></a>
                 </span>

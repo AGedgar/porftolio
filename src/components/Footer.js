@@ -10,9 +10,9 @@ export const Footer = () =>{
                 <Row className="align-items-center">
                     <Col sm={12} className="text-right text-sm-end">
                         <div className="social-icon">
-                            <a href="https://linkedin.com/in/edgarag" target="_blank"><img src={navIcon1} alt="linkedIn"/></a>
-                            <a href="https://github.com/AGedgar" target="_blank"><img src={navIcon2} alt="github"/></a>
-                            <a href="https://instagram.com/edgararellanog/" target="_blank"><img src={navIcon3} alt="instagram"/></a>
+                            <a href="https://linkedin.com/in/edgarag" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="linkedIn"/></a>
+                            <a href="https://github.com/AGedgar" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="github"/></a>
+                            <a href="https://instagram.com/edgararellanog/" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="instagram"/></a>
                         </div>
                         <p>Contact me!</p>
                     </Col>
